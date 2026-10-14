@@ -1,0 +1,33 @@
+body {
+  background-color: lightblue;
+}
+
+.card {
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(135, 208, 222);
+  color: rgb(153, 140, 140);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(47, 63, 94);
+}
